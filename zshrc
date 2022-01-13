@@ -15,17 +15,17 @@ autoload -Uz _zinit
 # Load a few important annexes, without Turbo
 # (this is currently required for annexes)
 zinit light-mode for \
-  zinit-zsh/z-a-rust \
-  zinit-zsh/z-a-as-monitor \
-  zinit-zsh/z-a-patch-dl \
-  zinit-zsh/z-a-bin-gem-node
+  zdharma-continuum/z-a-rust \
+  zdharma-continuum/z-a-as-monitor \
+  zdharma-continuum/z-a-patch-dl \
+  zdharma-continuum/z-a-bin-gem-node
 
 # Plugins
 zinit ice depth=1; zinit light romkatv/powerlevel10k
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
-zinit load zdharma/fast-syntax-highlighting
-zinit load zdharma/history-search-multi-word
+zinit load zdharma-continuum/fast-syntax-highlighting
+zinit load zdharma-continuum/history-search-multi-word
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
