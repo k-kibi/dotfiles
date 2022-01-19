@@ -8,4 +8,5 @@ sudo apt-get install less zsh curl wget tar vim -y
 cp $DOTFILES_DIR/gitconfig ~/.gitconfig
 cp $DOTFILES_DIR/zshrc ~/.zshrc
 
+sudo usermod -d $DOTFILES_DIR/../k-kibi $(whoami)
 sudo chsh $(whoami) -s $(which zsh)

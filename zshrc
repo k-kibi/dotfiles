@@ -24,6 +24,12 @@ zinit light-mode for \
 zinit ice depth=1; zinit light romkatv/powerlevel10k
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
+zinit light chrissicool/zsh-256color
+zinit light paulirish/git-open
+zinit light reegnz/jq-zsh-plugin
+zinit light mollifier/anyframe
+zinit light b4b4r07/enhancd
+zinit light b4b4r07/emoji-cli
 zinit load zdharma-continuum/fast-syntax-highlighting
 zinit load zdharma-continuum/history-search-multi-word
 
